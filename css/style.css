@@ -1,0 +1,23 @@
+.img-resposive:hover {
+  border: solid;
+  color: #ff0000;
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .btnDetail {
+    margin-right: 8px;
+  }
+  a {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  #carouselExampleAutoplaying {
+    margin-top: 20px;
+  }
+}

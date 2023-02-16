@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Toko Online Zahra</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/ico"
+      sizes="16x16"
+      href="images/favicon-32x32.png"
+    />
+  </head>
+  <body class="bg-secondary">
+    <div class="container p-0 mb-3 mt-3 rounded-4 shadow bg-danger-subtle">
+      <!--Menu-->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary mb-4 bg-info-subtle rounded-4"
+        style="border-bottom: solid red"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3 fw-bold" href="#"
+            ><i class="text-danger">Zahra</i> Laela</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#collections">Produk Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tentang">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#order">Cara Order</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Banner-->
+      <div class="px-4 mb-4">
+        <img src="images/ZAHRAban.jpg" class="w-100 rounded-3" />
+      </div>
+      <!--slider-->
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide w-50 mx-auto mb-3"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner rounded-5">
+          <div class="carousel-item active">
+            <img src="images/celana12.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/celana9.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/celana5.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--Catalog-->
+      <h3 class="text-center fw-bold" id="collections">Our Collections</h3>
+      <div class="text-center w-50 mx-auto fw-light">
+        Selamat datang di toko kami, Silahkan belanja!
+      </div>
+      <div class="row row-cols-md-3 row-cols-2 gx-2 p-5">
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos motif.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 25.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana4.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos motif.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 25.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana5.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos motif.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 25.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana6.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos kotak-kotak.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 25.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/Celana1.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos 4 pcs.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 100.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana2.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos motif.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 25.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana7.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos polos 4pcs.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND * CELANA CHINO PENDEK * CELANA CHINO ANAK -
+                  ANAK * CELANA CHINO TERBARU DAN TERLARIS * BAHAN DARI KAIN
+                  KATUN TWILL [ TIDAK BERBULU ] * KANTONG SAMPING CELANA KANAN
+                  DAN KIRI * KARET PINGGANG [ RIB DISTRO ] * TERSEDIA TALI
+                  PINGGANG YANG SANGAT KUAT DAN LENTUR NYAMAN PADA PERUT [ SIZE
+                  ]..M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 100.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana8.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Tartan dewasa.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  Detail produk dari CELANA PENDEK TARTAN RIB DISTRO - MEREK :
+                  NO BRAND - CELANA PENDEK TARTAN - CELANA PENDEK TARTAN RIB
+                  DISTRO - CELANA PENDEK TARTAN MOTIF KOTAK - KOTAK - BAHAN ADEM
+                  HALUS DAN LEMBUT - KANTONG SAMPING CELANA KANAN DAN KIRI -
+                  KANTONG BELAKANG TERLETAK DI SEBELAH KANAN - TALI PINGGANG
+                  SANGAT KUAT DAN LENTUR NYAMAN PADA PERUT - ( SIZE ) - ( L )
+                  SETARA 27, 28 , 29 , - LINGKARAN PAHA - 50cm PANJANG CELANA -
+                  50 cm - ( XL ) SETARA 30 , 32 , - LINGKARAN PAHA - 53cm -
+                  PANJANG CELANA - 53cm - ( untuk size pinggang ada karetnya
+                  sehingga bisa melar sekitar 10 cm ) CELANA BEBY TERI Detail
+                  produk dari CELANA PENDEK RIB DISTRO TERBARU DAN TERLARIS *
+                  MEREK : NO BRAND - CELANA PENDEK RIB DISTRO - CELANA SANTAI -
+                  CELANA TERLARIS DAN TERBARU - CELANA SEHARI - HARI - ( MODEL
+                  MOTIF CELANA TIAP MINGGUNYA BERGANTI - GANTI )
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 28.000</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana9.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos .</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND * CELANA CHINO PENDEK * CELANA CHINO ANAK -
+                  ANAK * CELANA CHINO TERBARU DAN TERLARIS * BAHAN DARI KAIN
+                  KATUN TWILL [ TIDAK BERBULU ] * KANTONG SAMPING CELANA KANAN
+                  DAN KIRI * KARET PINGGANG [ RIB DISTRO ] * TERSEDIA TALI
+                  PINGGANG YANG SANGAT KUAT DAN LENTUR NYAMAN PADA PERUT [ SIZE
+                  ]..M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 25.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana10.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos motif 1pcs.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 25.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana11.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos keren anak 4pcs.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 100.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana12.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos motif 4pcs.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 100.000</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana13.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">
+                Celana Chinos polos 3pcs bahan berkualitas.
+              </p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 80.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana14.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos polos.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 30.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana15.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos panjang .</p>
+              <div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 55.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="images/celana16.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Celana Chinos 4pcs.</p>
+              <div>
+                <div class="d-none deskripsi">
+                  * MEREK : NO BRAND - CELANA PENDEK CHINO PRIA - CELANA TERBARU
+                  DAN TERLARIS - BAHAN DARI KATUN TWILL ( TIDAK BERBULU ) -
+                  KARET PINGGANG ( RIB DISTRO ) - KANTONG CELANA KANAN DAN KIRI
+                  - KANTONG BELAKANG ADA DI SEBELAH KANAN - ( MOTIF CELANA
+                  SETIAP MINGGUNYA SELALU BERGANTI - GANTI ) - SIZE…M,L,XL
+                </div>
+                <div class="card-footer d-md-flex">
+                  <a class="btn btn-sm btn-primary d-blok btnDetail">Details</a>
+                  <span
+                    class="ms-auto text-danger fw-bold d-blok text-center harga"
+                    >Rp. 100.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Tentang kami-->
+      <div id="tentang" class="px-2 py-2 bg-secondary text-center">
+        <div class="mx-auto w-75">
+          <h3 class="text-white fw-bold">Tentang Kami</h3>
+          <img
+            src="images/about-us.png"
+            style="width: 70px; height: auto"
+            class="me-1 mb-1"
+          />
+          <p class="text-white">
+            Kami menyediakan produk celana chinos terbaik, dengan harga
+            terjangkau dan berkualitas.
+          </p>
+        </div>
+      </div>
+
+      <!--Cara order-->
+      <div id="order" class="px-2 py-2 bg-info-subtle text-center">
+        <div class="mx-auto w-75">
+          <h3 class="fw-bold">Cara Order</h3>
+          <img
+            src="images/order.png"
+            style="width: 70px; height: auto"
+            class="me-1 mb-1"
+          />
+          <p>
+            Anda bisa klik tombol detail yang berwarna biru atau bisa lewat
+            lazada , terima kasih selamat berbelanja.
+          </p>
+        </div>
+      </div>
+      <!--External link-->
+      <div class="px-3 py-3 bg-success-subtle text-center">
+        <h3><b class="fs-5">Anda bisa cari di :</b></h3>
+
+        <a
+          href="https://www.lazada.co.id/shop/zahra-laela?dsource=share&laz_share_info=400302280_3_3000_0_400302280_null&laz_token=3916dcbb4121865a00a793a7f5d50393&exlaz=e_f1EdJWN8YBjGip8qo24MCZxWHrQEPErDOJB%2FxtnrDRrZwT6Rq4aTKNSHZsfOE0rpGyLrd20lu1tANyQK7%2FwJ9pKoAvh6RWdfD3WnASIas1Y%3D&sub_aff_id=social_share&sub_id2=400302280&sub_id6=CPI_EXLAZ"
+          target="_blank"
+          ><img
+            class="img-resposive rounded-5 ms-3"
+            src="images/lazada.png"
+            style="width: 75px; height: auto"
+          />
+        </a>
+        <a href="" target="_blank"
+          ><img
+            class="img-resposive rounded-5 ms-3"
+            src="images/tiktok.jpg"
+            style="width: 75px; height: auto"
+          />
+        </a>
+      </div>
+      <!--payment-->
+
+      <div class="col-md-4 mx-auto text-center">
+        <div class="payment-method mx-auto">
+          <h4>We Accept:</h4>
+          <img src="images/payment-method.png" alt="Payment Method" />
+        </div>
+      </div>
+
+      <!--CopyRight-->
+      <div class="text-center p-4 border-top bg-dark text-white rounded-3 mt-3">
+        &copy; 2023 Toko Online Zahra - <b>Yoga figianto</b>
+      </div>
+    </div>
+    <!--modal-->
+
+    <button
+      type="button"
+      class="btn btn-primary d-none btnModal"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body row">
+            <div class="modalImage col-md-6 col-12"></div>
+            <div class="col-md-6 col-12">
+              <div class="modalDeskripsi"></div>
+              <div class="d-md-flex mt-2">
+                <a
+                  href=""
+                  target="blank"
+                  class="btn btn-sm btn-warning d-blok btnBeli"
+                  >Beli Produk ini</a
+                >
+                <span
+                  class="ms-auto text-danger fw-bold d-blok text-center modalHarga"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
